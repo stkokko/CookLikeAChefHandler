@@ -1,0 +1,95 @@
+<resources>
+
+    <!--  Label  -->
+    <string name="app_name">Cook Like A Chef</string>
+
+    <!--  Login Screen  -->
+    <string name="e_mail">E-mail</string>
+    <string name="password">Κωδικός πρόσβασης</string>
+    <string name="login_button_text">Συνδεση</string>
+    <string name="error_message_login">Ο κωδικός πρόσβασης ή το e-mail είναι λανθασμένο(ς)!</string>
+
+    <!--  Home Screen  -->
+    <string name="remove">Αφαιρεση</string>
+    <string name="add_recipe">Προσθηκη</string>
+    <string name="update">Ενημερωση</string>
+    <string name="log_out">Αποσυνδεση</string>
+
+    <!--  Add Recipe Screen  -->
+    <string name="add_recipe_title">Προσθήκη συνταγής</string>
+    <string name="name">Όνομα</string>
+    <string name="ingredients">Υλικά</string>
+    <string name="quantity">Ποσότητα</string>
+    <string name="add">Προσθηκη</string>
+    <string name="delete_ingredient">Αφαιρεση</string>
+    <string name="category">Κατηγορία</string>
+    <string name="brunch">Brunch</string>
+    <string name="salads">Salads</string>
+    <string name="main_dishes">Main Dishes</string>
+    <string name="burgers">Burgers</string>
+    <string name="desserts">Desserts</string>
+    <string name="select_image">Επιλογη Εικονας</string>
+    <string name="next">Επομενο</string>
+    <string name="prev">Προηγουμενο</string>
+    <string name="resume">Επισκοπηση</string>
+    <string name="save">Αποθηκευση</string>
+
+    <!--  Confirmation PopUp  -->
+    <string name="yes_text">Ναι</string>
+    <string name="no_text">Οχι</string>
+    <string name="sure_text">Είστε σίγουρος;</string>
+
+    <!--  Custom Dialog PopUp  -->
+    <string name="loading_text">Παρακαλω Περιμενετε....</string>
+
+    <!--  Remove-Update Screen  -->
+    <string name="search">Αναζήτηση</string>
+    <string name="recipe_name_description">Εικόνα συνταγής</string>
+
+    <!--  Add-Remove-Update Screen  -->
+    <string name="return_search">Εικόνα επιστροφής</string>
+
+    <!--  Update PopUp  -->
+    <string name="recipe_name">Όνομα Συνταγής</string>
+    <string name="ingredient_name">\'Ονομα υλικού</string>
+    <string name="add_ingredient">Ποσότητα υλικού</string>
+    <string name="change_image">Αλλαγη Εικονας</string>
+    <string name="update_recipe">Ενημέρωση Συνταγής</string>
+
+    <!--  Add-Update PopUp  -->
+    <string name="close_icon">Έξοδος</string>
+
+    <!--  Add PopUp  -->
+    <string name="recipe">Συνταγή</string>
+
+    <!--  Add Screen & Update PopUp  -->
+    <string name="description">Περιγραφή</string>
+
+
+    <!--  Universal Snack Bars  -->
+    <string name="error_message">Προέκυψε πρόβλημα.</string>
+    <string name="empty_name">Δεν έχει εκχωρηθεί όνομα</string>
+    <string name="name_exists">Το όνομα υπάρχει</string>
+    <string name="empty_ingredient">Παρακαλώ εισάγετε υλικό</string>
+    <string name="empty_ingredient_list">Παρακαλώ προσθέστε υλικά</string>
+    <string name="empty_description">Παρακαλώ προσθέστε περιγραφή στην συνταγή</string>
+    <string name="select_image_success">Η επιλογή της είκονας έγινε με επιτυχία</string>
+
+
+    <!--  Add Recipe Screen Snack Bars  -->
+    <string name="enter_steps">Παρακαλώ εισάγετε τα βήματα εκτέλεσης της συνταγής</string>
+    <string name="empty_category">Παρακαλώ επιλέξτε κατηγορία</string>
+
+
+    <!--  Home Recipe Screen Snack Bars  -->
+    <string name="add_recipe_success">Η συνταγή αποθηκεύτηκε με επιτυχία.</string>
+
+    <!--  UpdateRecyclerViewAdapter Snack Bars  -->
+    <string name="name_exists_message">Το όνομα υπάρχει</string>
+    <string name="ingredient_exists">Το υλικό υπάρχει ήδη</string>
+    <string name="greek">Ελληνικά</string>
+    <string name="english">Αγγλικά</string>
+    <string name="language">Γλώσσα</string>
+
+
+</resources>
