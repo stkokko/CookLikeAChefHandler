@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/app_name"
+        android:textColor="#CD000000"
+        android:textSize="32sp" />
 
     <Button
         android:id="@+id/add_button"
@@ -15,7 +22,8 @@
         android:layout_margin="20dp"
         android:background="@color/general_color"
         android:text="@string/add_recipe"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/remove_button"
@@ -24,7 +32,8 @@
         android:layout_margin="20dp"
         android:background="@color/general_color"
         android:text="@string/remove"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/update_button"
@@ -33,7 +42,8 @@
         android:layout_margin="20dp"
         android:background="@color/general_color"
         android:text="@string/update"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/log_out_button"
@@ -42,5 +52,6 @@
         android:layout_margin="20dp"
         android:background="@color/general_color"
         android:text="@string/log_out"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
 </LinearLayout>

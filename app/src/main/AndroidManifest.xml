@@ -11,14 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpdateRecipeActivity"
+        <activity
+            android:name=".UpdateRecipeActivity"
             android:configChanges="orientation|screenSize"
-            android:windowSoftInputMode="stateHidden|adjustPan"/>
+            android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity android:name=".RemoveRecipeActivity" />
-        <activity android:name=".AddRecipeActivity"
-            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".AddRecipeActivity"
+            android:windowSoftInputMode="adjustPan" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
